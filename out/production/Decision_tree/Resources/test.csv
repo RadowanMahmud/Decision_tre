@@ -1,0 +1,11 @@
+Age ,Competition,Type,Profit
+old ,yes,s,down
+old ,no,s,down
+old ,no,h,down
+mid,yes,s,down
+mid,yes,h,down
+mid,no,h,up
+mid,no,s,up
+new,yes,s,up
+new,no,h,up
+new,no,s,up

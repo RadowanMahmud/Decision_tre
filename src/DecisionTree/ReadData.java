@@ -3,9 +3,7 @@ package DecisionTree;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class ReadData {
 
@@ -13,6 +11,7 @@ public class ReadData {
     private int datarows=0;
     private int datacolumns=0;
     List<String> DataClass = new ArrayList<>();
+    Map<String, Integer> classCatagoryMap = new HashMap<>();
     private String[][] data;
 
     public ReadData(String File){
@@ -30,7 +29,7 @@ public class ReadData {
 
         //this.printDataArray();
 
-        DecisionTree d= new DecisionTree(this.data,this.datarows,this.datacolumns);
+        DecisionTree d= new DecisionTree(this.data,this.datarows,this.datacolumns,this.classCatagoryMap,this.DataClass);
         d.trainData();
     }
 
@@ -90,6 +89,8 @@ public class ReadData {
         while ((frow = bufferedReader.readLine())!= null){
 
             arr=frow.split(",");
+
+            if(count!=0) classCatagoryMap.put(arr[arr.length-1],0); //this line is storing all the class catagory and setting their value as 0
 
                 if(count==0){
 
