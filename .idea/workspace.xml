@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5f68bd7-63de-4822-86bf-2f130fc852d1" name="Default Changelist" comment="" />
+    <list default="true" id="a5f68bd7-63de-4822-86bf-2f130fc852d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/DecisionTree/DecisionTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecisionTree/DecisionTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecisionTree/ReadData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecisionTree/ReadData.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DecisionTree/ReadData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+            <state relative-caret-position="452">
+              <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setNumberofDatarows#0;class#ReadData#0" />
@@ -34,12 +37,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DecisionTree/DecisionTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="437">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
               <folding>
                 <element signature="e#427#428#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
-                <element signature="method#createtableset#0;class#DecisionTree#0" />
               </folding>
             </state>
           </provider>
@@ -122,6 +124,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Resources" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -179,6 +182,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -189,12 +193,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16056034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24190065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33045357" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.237581" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3297414" />
@@ -213,7 +217,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DecisionTree/ReadData.java</url>
-          <line>57</line>
+          <line>58</line>
           <properties class="DecisionTree.ReadData" method="setDataClass">
             <option name="EMULATED" value="true" />
           </properties>
@@ -221,7 +225,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/DecisionTree/ReadData.java</url>
-          <line>35</line>
+          <line>36</line>
           <properties class="DecisionTree.ReadData" method="setNumberofDatarows">
             <option name="EMULATED" value="true" />
           </properties>
@@ -246,8 +250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecisionTree/ReadData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        <state relative-caret-position="452">
+          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setNumberofDatarows#0;class#ReadData#0" />
@@ -261,12 +265,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecisionTree/DecisionTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="437">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
           <folding>
             <element signature="e#427#428#0" expanded="true" />
             <element signature="e#464#465#0" expanded="true" />
-            <element signature="method#createtableset#0;class#DecisionTree#0" />
           </folding>
         </state>
       </provider>

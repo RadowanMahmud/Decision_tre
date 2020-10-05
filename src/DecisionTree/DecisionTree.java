@@ -23,19 +23,18 @@ public class DecisionTree {
 
         boolean[] traindatachecker= new boolean[this.datarows];//8124 without 0 of data set
 
-        int numberodTestData=(this.datarows/5);//1624
-        int rows = (this.datarows-numberodTestData);//6500
+        int numberodTestData=(this.datarows/5);//1624 number of test data
+        int rows = (this.datarows-numberodTestData);//6500 number of train data
 
         traingset= new String[rows][this.datacolumns];//6500*23
         testset= new String[numberodTestData][this.datacolumns];//1624(23
 
         Random random= new Random();
         int traindataindex;
-        int traingsetindex=0;
 
         for(int i=0;i<rows;i++){
 
-            traindataindex=random.nextInt(this.datarows);
+            traindataindex=random.nextInt(this.datarows);// selecting random data from data set
 
             if(traindataindex==0 || traindatachecker[traindataindex]==true){
                 i--;
@@ -43,8 +42,8 @@ public class DecisionTree {
             }
             else {
                 for(int j=0;j<this.datacolumns;j++){
-                    traingset[traingsetindex][j] = this.dataset[traindataindex][j];
-                    traingsetindex++;
+                   // System.out.println(i+" "+j+"   "+traindataindex+" "+j);
+                    traingset[i][j] = this.dataset[traindataindex][j];
                     traindatachecker[traindataindex]=true;
                 }
             }

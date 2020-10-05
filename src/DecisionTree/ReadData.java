@@ -31,6 +31,7 @@ public class ReadData {
         //this.printDataArray();
 
         DecisionTree d= new DecisionTree(this.data,this.datarows,this.datacolumns);
+        d.trainData();
     }
 
     private void setNumberofDatarows() throws FileNotFoundException {
